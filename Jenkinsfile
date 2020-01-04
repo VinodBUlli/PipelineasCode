@@ -3,9 +3,9 @@ agent none
  stages{
    stage("Build"){
      agent any
-      options {
+     /* options {
         skipDefaultCheckout()
-      }
+      } */
     steps{
     echo "Hellow world"
     }
