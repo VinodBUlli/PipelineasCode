@@ -6,6 +6,9 @@ agent none
       options {
         skipDefaultCheckout()
       }
+    steps{
+    echo "Hellow world"
+    }
    }
  }
 }
