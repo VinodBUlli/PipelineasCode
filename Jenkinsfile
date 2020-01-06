@@ -4,7 +4,7 @@ agent any
 stages {
   stage ("Build Master"){
    when {
-     Branch: master
+     branch 'master'
    }
    steps {
    echo "deploying master branch"
@@ -16,7 +16,7 @@ stages {
   stage("Build dev")
 
   when {
-     Branch: dev
+     branch 'dev'
   }
   steps{
   echo "Building dev"
